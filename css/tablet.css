@@ -1,0 +1,70 @@
+@media (max-width: 1024px) {
+    .signUp_active {
+        right: 8%;
+    }
+
+    .header_white_navigation {
+        width: 60%;
+    }
+
+    .header_white {
+        width: 100%;
+        padding: 61px 5px 61px 5px;
+    }
+
+    .firs_section_text {
+        top: 74%;
+        margin-left: 9%;
+    }
+
+    .second_section {
+        width: 98%;
+    }
+
+    .text_title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .second_section_article_text {
+        padding: 30px 60px 20px 20px;
+    }
+
+    .article_text_subtitle {
+        margin-top: 25px;
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .second_section_article_btn {
+        margin-top: 70px;
+    }
+
+    .third_section {
+        width: 90%;
+    }
+
+    .Next_Adventures_text {
+        top: 54.8%;
+        margin-left: 9%;
+    }
+
+    .fifth_section {
+        width: 90%;
+    }
+
+    .wknd_inbox {
+        width: 90%;
+    }
+
+    .wknd_inbox_text_title {
+        font-size: 2rem;
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+
+    .footer_icones {
+        width: 25%;
+    }
+
+}

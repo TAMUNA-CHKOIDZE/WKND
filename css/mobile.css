@@ -1,0 +1,201 @@
+@media (max-width: 480px) {
+    .signUp_active {
+        right: 0%;
+    }
+
+    .header_white {
+        position: relative;
+        padding: 10px 0 10px 0;
+    }
+
+    .header_white_navigation {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin-left: 20%;
+    }
+
+    .meniudiv {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        width: 300px;
+        height: 150px;
+        background-color: white;
+        z-index: 2;
+        border: 2px solid red;
+    }
+
+    .menuUl {
+        position: absolute;
+        z-index: 4;
+        left: 40%;
+        width: 40%;
+        margin-top: 22%;
+    }
+
+    .menuli {
+        font-size: 1.6rem;
+    }
+
+    .cencel {
+        width: 30px;
+        height: 30px;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .firs_section {
+        height: 500px;
+    }
+
+    .firs_section_text {
+        top: 59.8%;
+        padding: 24px 30px 20px 40px;
+    }
+
+    .firs_section_text_title {
+        font-size: 2rem;
+    }
+
+    .firs_section_text_content {
+        font-size: 1rem;
+    }
+
+    .second_section_bullets {
+        justify-content: space-around;
+    }
+
+    .second_section_dots {
+        width: 30%;
+    }
+
+    .second_section_arrows {
+        width: 20%;
+    }
+
+    .second_section_article_text {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .third_section {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .text_title {
+        text-align: center;
+    }
+
+    .Recent_Articles_line {
+        width: 150px;
+        margin-left: 35%;
+    }
+
+    .slider_wrapper {
+        height: 150px;
+    }
+
+    .slide1 {
+        height: 100px;
+    }
+
+    .line_grey {
+        width: 90%;
+    }
+
+
+    .Next_Adventures {
+        height: 500px;
+    }
+
+    .Next_Adventures_text {
+        top: 53%;
+        padding: 24px 30px 20px 40px;
+    }
+
+    .Next_Adventures_text_title {
+        font-size: 2rem;
+    }
+
+    .Next_Adventures_text_content {
+        font-size: 1rem;
+    }
+
+    .fourth_section_title {
+        text-align: center;
+    }
+
+    .fourth_section_line {
+        margin-left: 40%;
+    }
+
+    .fifth_section {
+        margin-bottom: 80px;
+    }
+
+    .fifth_section_title {
+        text-align: center;
+    }
+
+    .card_go {
+        flex-wrap: wrap;
+        height: 500px;
+
+    }
+
+    .card_go_itrm {
+        width: 48%;
+        height: 50%;
+    }
+
+    .explor_all {
+        display: none;
+    }
+
+    .wknd_inbox_text {
+        padding: 0 5px 0 10px;
+    }
+
+    .wknd_inbox_text_title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .wknd_inbox_text_content {
+        font-size: 0.8rem;
+    }
+
+    .email_input {
+        width: 90%;
+        height: 40px;
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+
+    .wknd_inbox_btn {
+        margin-left: 22%;
+    }
+
+    .nav2 {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 20%;
+    }
+
+    .nav_icon {
+        width: 20%;
+    }
+
+
+}

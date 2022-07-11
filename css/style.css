@@ -1,0 +1,832 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    width: 100%;
+}
+
+.header_black {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 11px 0 9px 0;
+
+}
+
+.header_black_img {
+    transition: all 1s linear;
+}
+
+.header_black_img:hover {
+    cursor: pointer;
+    transform: scale(2);
+
+}
+
+.header_black_text {
+    color: #909090;
+    font-size: 14px;
+    margin-right: 14%;
+    margin-left: 2%;
+}
+
+.signUp {
+    display: none;
+}
+
+.signUp_active {
+    display: flex;
+    position: absolute;
+    right: 0;
+    background-color: white;
+}
+
+.form_signUp {
+    width: fit-content;
+    background-color: white;
+    border: 3px solid #ccc;
+    z-index: 2;
+}
+
+.signUp_container_h1 {
+    font-size: 2rem;
+    color: #f44336;
+    margin-bottom: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 95%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    width: 95%;
+    background-color: #ddd;
+    outline: none;
+}
+
+input[type=checkbox] {
+    margin-bottom: 40px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 35px;
+    width: 90%;
+}
+
+
+.clearfix {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clearfix button {
+    max-width: 45%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.clearfix button:hover {
+    opacity: 1;
+}
+
+.cancelbtn {
+    background-color: #f44336 !important;
+}
+
+.signUp_container {
+    padding: 16px;
+}
+
+
+
+
+
+
+.header_white {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 61px 0 61px 0;
+}
+
+.menu {
+    display: none;
+}
+
+.header_white_logo {
+    width: 10%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.header_white_navigation {
+    width: 40%;
+}
+
+.header_white_navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.liActive {
+    animation: hov 1s linear;
+    cursor: pointer;
+}
+
+@keyframes hov {
+    0% {
+        color: rgb(248, 152, 152);
+    }
+
+    100% {
+        color: red;
+        font-weight: bold;
+    }
+}
+
+
+/* სეჩის ინფუთზე ანიმაცია */
+.form_container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.form {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    z-index: 1;
+}
+
+.inputForSearch {
+    position: absolute;
+    height: 40px !important;
+    width: 50px !important;
+    margin: 0px;
+    padding: 5px 10px !important;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #EBEBEB;
+    transition: all 0.3s linear;
+    z-index: 1;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.search_active {
+    width: 200px !important;
+}
+
+/* პირველი სექცია */
+.firs_section {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-image: url("/image/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firs_section_text {
+    width: 83%;
+    margin: 0 auto;
+    position: absolute;
+    background-color: white;
+    top: 77%;
+    padding: 24px 70px 20px 40px;
+    margin-left: 5%;
+}
+
+.firs_section_text_title {
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+.firs_section_text_content {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.firs_section_text_btn {
+    background-color: #FFEB00;
+    border: none;
+    padding: 14px 16px;
+    transition: all 2s linear;
+}
+
+.firs_section_text_btn:hover {
+    background-color: #6d6504;
+    border-radius: 10px;
+}
+
+
+/* მეორე სექცია */
+.second_section {
+    width: 80%;
+    margin: 0 auto 72px auto;
+}
+
+.second_section_bullets {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.second_section_dots {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.second_section_dots1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.second_section_dots1.black {
+    background-color: black;
+}
+
+.second_section_arrows {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 30%;
+}
+
+.left_arrow,
+.right_arrow {
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.left_arrow {
+    margin-right: 10px;
+}
+
+
+.left_arrow:hover,
+.right_arrow:hover {
+    background-color: #FFEB00;
+    box-shadow: 0px 0px 17px rgb(71, 71, 2);
+}
+
+.second_section_article {
+    width: 100%;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second_section_article_text {
+    width: 35%;
+    height: 100%;
+    padding: 30px 100px 20px 20px;
+    background-color: #F7F7F7;
+}
+
+.text_title {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.article_text_subtitle {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.article_text_text {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.Last_Article_line {
+    position: absolute;
+    width: 0px;
+    border-bottom: 4px solid #FFE900;
+    margin-bottom: 20px;
+
+}
+
+
+.lineAnimation {
+    animation: lineChange 3s forwards linear;
+}
+
+
+@keyframes lineChange {
+    0% {
+        width: 0px;
+    }
+
+    50% {
+        width: 300px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+
+.second_section_article_btn {
+    font-size: 14px;
+    padding: 14px 40px;
+    border: none;
+    background-color: #FFEB00;
+    margin-top: 123px;
+    transition: all 2s linear;
+}
+
+.second_section_article_btn:hover {
+    background-color: #6d6504;
+    border-radius: 10px;
+}
+
+
+
+
+/* სლაიდერი */
+
+.slider {
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+
+
+.item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 1s linear;
+    position: absolute;
+}
+
+@keyframes zoom {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+
+/* დამთავრდა მეორე სექცია: last article - სლაიდერი */
+
+
+
+
+/* დაიწყო მესამე სექცია: Recent Articles */
+.third_section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 95px;
+}
+
+.Recent_Articles_line {
+    position: absolute;
+    width: 100px;
+    border-bottom: 4px solid #FFE900;
+    margin-bottom: 20px;
+}
+
+.slider_wrapper {
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slider_track {
+    display: flex;
+    width: calc(250px*12);
+    animation: slidescroll 5s linear infinite;
+}
+.slider_track:hover{
+    animation-play-state: paused;
+}
+
+@keyframes slidescroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-1000px);
+    }
+}
+
+.slide1 {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    overflow: hidden;
+    perspective: 100px;
+    cursor: pointer;
+}
+
+.slide1 img {
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.slider_wrapper::before,
+.slider_wrapper::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    z-index: 2;
+}
+
+.slider_wrapper::before {
+    left: 0;
+    top: 0;
+}
+
+.slider_wrapper::after {
+    right: -2px;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+
+/* .title {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    font-size: 10px;
+    color: #909090;
+} */
+
+.line_grey {
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 4px solid #EBEBEB;
+    margin-bottom: 20px;
+}
+
+/* დასრულდა მესამე სექცია: Recent Articles */
+
+.fourth_section {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 67px;
+}
+
+.fourth_section_title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.fourth_section_line {
+    width: 100px;
+    border-bottom: 4px solid #FFE900;
+    margin-bottom: 48px;
+    margin-left: 10%;
+}
+
+.Next_Adventures {
+    width: 100%;
+    height: 630px;
+    background-image: url("/image/climbing.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+
+.Next_Adventures_text {
+    width: 82%;
+    margin: 0 auto;
+    position: absolute;
+    background-color: white;
+    top: 64%;
+    padding: 24px 70px 20px 40px;
+    margin-left: 6%;
+}
+
+.Next_Adventures_text_title {
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+.Next_Adventures_text_content {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.Next_Adventures_text_btn {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 40px;
+    border: none;
+    background-color: #FFEB00;
+    transition: all 2s linear;
+}
+
+.Next_Adventures_text_btn:hover {
+    background-color: #6d6504;
+    border-radius: 10px;
+}
+
+/* დასრულდა მეოთხე სექცია: Next Adventures */
+/* დაიწყო მეხუთე სექცია: Where do you want to go? */
+.fifth_section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fifth_section_title {
+    font-size: 24px;
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.card_go {
+    width: 100%;
+    height: 247px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card_go_itrm {
+    width: 23%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.go_img {
+    width: 100%;
+    height: 80%;
+}
+
+.card_go_itrm_title {
+    font-size: 16px;
+    margin: 12px 0 12px 0;
+}
+
+.card_go_itrm_text {
+    font-size: 10px;
+    color: #909090;
+}
+
+.explor_all {
+    font-size: 14px;
+    padding: 14px 40px;
+    background-color: black;
+    color: white;
+    margin: 48px 0 67px 0;
+}
+
+/* დასრულდა მეხუთე სექცია: Where do you want to go? */
+
+/* დაიწყო მეექვსე სექცია: Where do you want to go? */
+.wknd_inbox {
+    width: 80%;
+    margin: 5% auto 72px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wknd_inbox_img {
+    width: 35%;
+    height: 204px;
+}
+
+.wknd_inbox_img_photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wknd_inbox_text {
+    width: 65%;
+    height: 204px;
+    padding: 0 90px 0 60px;
+    background-color: #F7F7F7;
+}
+
+.wknd_inbox_text_title {
+    font-size: 3.5rem;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.inboxTitle {
+    color: red;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 6%;
+}
+
+.inboxTitlee {
+    color: red;
+    margin-bottom: 8%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.wknd_inbox_text_content {
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+
+.email_input {
+    padding: 16px 83px 16px 20px;
+    background-color: #c9c8c8;
+    border: none;
+    outline: none;
+}
+
+.email_input::placeholder {
+    font-size: 14px;
+}
+
+.wknd_inbox_btn {
+    padding: 13px 40px;
+    background-color: #000;
+    font-size: 14px;
+    color: white;
+    margin-left: 20px;
+}
+
+/* დასრულდა მეექვსე სექცია: Where do you want to go? */
+
+
+/* დაიწყო footer */
+footer {
+    width: 100%;
+    height: 234px;
+    background-color: #000;
+    color: white;
+}
+
+.footer {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer_wknd_navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0 26px 0;
+    margin-bottom: 40px;
+}
+
+.footer_logo {
+    width: 20%;
+    font-size: 4rem;
+}
+
+.nav_icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.nav2 {
+    width: 70%;
+}
+
+.nav2 ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav2 ul li {
+    font-size: 14px;
+    color: #909090;
+}
+
+.nav2 ul li:hover {
+    color: white;
+}
+
+.footer_icones {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer_icones img {
+    background-color: white;
+    padding: 5px;
+}
+
+#fb {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_wknd_copyright {
+    font-size: 14px;
+    color: #909090;
+}
+
+/* დასრულდა footer */
+
+
+
+
+/* ჯავასკრიპტის სტილებისთვის */
+.place {
+    color: red;
+    font-weight: bold;
+}
