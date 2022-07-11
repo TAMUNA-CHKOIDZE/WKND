@@ -103,7 +103,7 @@ let slides = document.querySelectorAll(".slider, .item, .item.active");
 let nextSlide = document.querySelector(".right_arrow");
 let prevSlide = document.querySelector(".left_arrow");
 let totalSlides = slides.length;
-let index = 0;
+let index = 1;
 
 let dots = document.querySelectorAll(".second_section_dots, .second_section_dots1, .second_section_dots1.black");
 
