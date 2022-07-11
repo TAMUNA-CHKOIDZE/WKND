@@ -16,7 +16,7 @@
         display: flex;
         width: 40px;
         height: 40px;
-        margin-left: 20%;
+        margin-left: 25%;
     }
 
     .meniudiv {
@@ -54,7 +54,7 @@
     }
 
     .firs_section_text {
-        top: 59.8%;
+        top: 50%;
         padding: 24px 30px 20px 40px;
     }
 
@@ -118,7 +118,7 @@
     }
 
     .Next_Adventures_text {
-        top: 53%;
+        top: 40%;
         padding: 24px 30px 20px 40px;
     }
 
@@ -166,23 +166,25 @@
     }
 
     .wknd_inbox_text_title {
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
     .wknd_inbox_text_content {
         font-size: 0.8rem;
+        margin-bottom: 14px;
     }
 
     .email_input {
         width: 90%;
-        height: 40px;
+        padding: 10px 83px 10px 20px;
         margin-left: 4%;
         margin-bottom: 2%;
     }
 
     .wknd_inbox_btn {
         margin-left: 22%;
+        padding: 8px 40px;
     }
 
     .nav2 {
