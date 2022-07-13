@@ -229,7 +229,9 @@ hr {
 .firs_section {
     width: 100%;
     height: 1000px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     background-image: url("../image/background.png");
     background-size: cover;
     background-position: center;
@@ -239,11 +241,8 @@ hr {
 .firs_section_text {
     width: 83%;
     margin: 0 auto;
-    position: absolute;
     background-color: white;
-    top: 77%;
     padding: 24px 70px 20px 40px;
-    margin-left: 9%;
 }
 
 .firs_section_text_title {
@@ -574,6 +573,10 @@ hr {
 .Next_Adventures {
     width: 100%;
     height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     background-image: url("../image/climbing.png");
     background-position: center;
     background-size: cover;
@@ -588,9 +591,7 @@ hr {
     margin: 0 auto;
     position: absolute;
     background-color: white;
-    top: 58%;
     padding: 24px 70px 20px 40px;
-    margin-left: 9%;
 }
 
 .Next_Adventures_text_title {

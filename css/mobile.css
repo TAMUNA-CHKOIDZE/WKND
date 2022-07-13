@@ -53,11 +53,6 @@
         height: 500px;
     }
 
-    .firs_section_text {
-        top: 47%;
-        padding: 24px 30px 20px 40px;
-    }
-
     .firs_section_text_title {
         font-size: 2rem;
     }
@@ -117,10 +112,6 @@
         height: 500px;
     }
 
-    .Next_Adventures_text {
-        top: 40%;
-        padding: 24px 30px 20px 40px;
-    }
 
     .Next_Adventures_text_title {
         font-size: 2rem;
