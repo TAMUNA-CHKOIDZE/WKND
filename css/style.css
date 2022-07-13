@@ -135,7 +135,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 61px 0 61px 0;
+    padding: 5% 0 5% 0;
 }
 
 .menu {
@@ -145,7 +145,7 @@ hr {
 .header_white_logo {
     width: 10%;
     text-align: center;
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .header_white_navigation {
@@ -339,20 +339,20 @@ hr {
 .second_section_article_text {
     width: 35%;
     height: 100%;
-    padding: 30px 100px 20px 20px;
+    padding: 2% 4% 1% 2%;
     background-color: #F7F7F7;
 }
 
 .text_title {
-    font-size: 46px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 3%;
 }
 
 .article_text_subtitle {
-    margin-top: 40px;
+    margin-top: 10%;
     font-size: 24px;
     line-height: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 .article_text_text {
@@ -391,10 +391,10 @@ hr {
 
 .second_section_article_btn {
     font-size: 14px;
-    padding: 14px 40px;
+    padding: 4% 15%;
     border: none;
     background-color: #FFEB00;
-    margin-top: 123px;
+    margin-top: 25%;
     transition: all 2s linear;
 }
 
@@ -479,7 +479,8 @@ hr {
     width: calc(250px*12);
     animation: slidescroll 5s linear infinite;
 }
-.slider_track:hover{
+
+.slider_track:hover {
     animation-play-state: paused;
 }
 
@@ -693,37 +694,43 @@ hr {
 .wknd_inbox_text {
     width: 65%;
     height: 204px;
-    padding: 0 90px 0 60px;
+    padding: 0 8% 0 4%;
     background-color: #F7F7F7;
 }
 
 .wknd_inbox_text_title {
-    font-size: 3.5rem;
-    margin-bottom: 12px;
-    margin-top: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+    margin-top: 2%;
 }
 
 .inboxTitle {
     color: red;
     text-align: center;
     font-size: 4rem;
-    margin-top: 6%;
+    margin-top: 60%;
 }
 
 .inboxTitlee {
     color: red;
     margin-bottom: 8%;
+    margin-top: 5%;
     font-size: 2.5rem;
     text-align: center;
 }
 
 .wknd_inbox_text_content {
     font-size: 1.2rem;
-    margin-bottom: 24px;
+    margin-bottom: 3%;
+}
+
+.wknd_inbox_input {
+    width: 100%;
+    display: flex;
 }
 
 .email_input {
-    padding: 16px 83px 16px 20px;
+    padding: 1% 3%;
     background-color: #c9c8c8;
     border: none;
     outline: none;
@@ -734,11 +741,11 @@ hr {
 }
 
 .wknd_inbox_btn {
-    padding: 13px 40px;
+    padding: 1% 3%;
     background-color: #000;
-    font-size: 14px;
+    font-size: 1rem;
     color: white;
-    margin-left: 20px;
+    margin-left: 2%;
 }
 
 /* დასრულდა მეექვსე სექცია: Where do you want to go? */
@@ -830,4 +837,24 @@ footer {
 .place {
     color: red;
     font-weight: bold;
+}
+
+
+@media (max-width: 1240px) {
+    .header_white {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 960px) {
+    .header_white_logo {
+        display: none;
+    }
+}
+@media (max-width: 698px){
+.header_white_navigation ul{
+    display: flex;
+    flex-direction: column;
+}
 }

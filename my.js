@@ -72,7 +72,7 @@ menu.addEventListener("click", function (e) {
         list.classList.add("menuli")
     }
 
-    
+
 
 })
 
@@ -187,36 +187,36 @@ go1.addEventListener("mouseout", function (e) {
 
 
 go2.addEventListener("mouseover", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/where2.png')";
+    nextAdventures.style.backgroundImage = "url('../image/where2.png')";
     adventureTitle.innerHTML = "SURF CAMP IN COSTA RICA"
     adventuresText.innerHTML = "Surfing"
 })
 go2.addEventListener("mouseout", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/climbing.png')";
+    nextAdventures.style.backgroundImage = "url('../image/climbing.png')";
     adventureTitle.innerHTML = "Climbing New Zealand"
     adventuresText.innerHTML = "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary."
 })
 
 
 go3.addEventListener("mouseover", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/where3.png')";
+    nextAdventures.style.backgroundImage = "url('../image/where3.png')";
     adventureTitle.innerHTML = "SKI TOURING MONT BLANC"
     adventuresText.innerHTML = "SKIING"
 })
 go3.addEventListener("mouseout", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/climbing.png')";
+    nextAdventures.style.backgroundImage = "url('../image/climbing.png')";
     adventureTitle.innerHTML = "Climbing New Zealand"
     adventuresText.innerHTML = "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary."
 })
 
 
 go4.addEventListener("mouseover", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/where4.png')";
+    nextAdventures.style.backgroundImage = "url('../image/where4.png')";
     adventureTitle.innerHTML = "RIVERSIDE CAMPING"
     adventuresText.innerHTML = "CAMPING"
 })
 go4.addEventListener("mouseout", function (e) {
-    nextAdventures.style.backgroundImage = "url('/image/climbing.png')";
+    nextAdventures.style.backgroundImage = "url('../image/climbing.png')";
     adventureTitle.innerHTML = "Climbing New Zealand"
     adventuresText.innerHTML = "Let us help you make your New Zealand climbing vacation a memory you will cherish forever! Come join us for a guided rock climbing adventure in the mountains that trained Sir Edmund Hilary."
 })
@@ -230,18 +230,24 @@ go4.addEventListener("mouseout", function (e) {
 let wkndBox = document.querySelector(".wknd_inbox_text");
 let emailInput = document.querySelector(".email_input");
 let inboxBtn = document.querySelector(".wknd_inbox_btn");
-let title = document.querySelector(".wknd_inbox_text_title");
+let title1 = document.querySelector(".wknd_inbox_text_title");
+let wkndPH = document.querySelector(".wknd_inbox_text_p_h");
 let wkntP = document.querySelector(".wknd_inbox_text_content");
+let title = document.createElement("h1");
+wkndPH.appendChild(title);
+
 inboxBtn.addEventListener("click", function () {
     if (emailInput.value == "") {
         title.innerHTML = "Please enter your email address!!!"
-        title.classList.add("inboxTitlee")
+        title.classList.add("inboxTitlee");
         wkntP.style.display = "none";
+        title1.style.display = "none";
     } else if (emailInput.value.includes("@gmail.com") == true) {
         title.innerHTML = "WKND in your inbox."
         title.classList.add(".inboxTitle");
         wkntP.style.display = "none";
         emailInput.style.display = "none";
         inboxBtn.style.display = "none";
+        title1.style.display = "none";
     }
 })

@@ -7,6 +7,9 @@
         position: relative;
         padding: 10px 0 10px 0;
     }
+        .header_white_logo{
+            display: block;
+        }
 
     .header_white_navigation {
         display: none;
@@ -139,43 +142,19 @@
 
     .card_go {
         flex-wrap: wrap;
-        height: 500px;
+        width: 100%;
+        margin-bottom: 170%;
 
     }
 
     .card_go_itrm {
-        width: 48%;
-        height: 50%;
+        width: 100%;
+        height: 70%;
+        margin-bottom: 10%;
     }
-
+    
     .explor_all {
         display: none;
-    }
-
-    .wknd_inbox_text {
-        padding: 0 5px 0 10px;
-    }
-
-    .wknd_inbox_text_title {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-
-    .wknd_inbox_text_content {
-        font-size: 0.8rem;
-        margin-bottom: 14px;
-    }
-
-    .email_input {
-        width: 90%;
-        padding: 10px 83px 10px 20px;
-        margin-left: 4%;
-        margin-bottom: 2%;
-    }
-
-    .wknd_inbox_btn {
-        margin-left: 22%;
-        padding: 8px 40px;
     }
 
     .nav2 {
